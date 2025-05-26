@@ -48,9 +48,8 @@ This tool helps HR teams, recruiters, and developers automate resume screening a
 
 ```
 ResumeParser/
-├── resumes/              # (Optional) Folder to store test resumes
 ├── parser.py             # Core logic for extracting resume data
-├── streamlit_app.py      # Streamlit frontend
+├── app.py                # Streamlit frontend
 ├── requirements.txt      # List of dependencies
 └── README.md             # Project documentation
 ```
@@ -76,7 +75,7 @@ python -m spacy download en_core_web_sm
 ### 3. Run the Streamlit App
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 > A browser tab will open where you can upload a resume and see extracted results.
@@ -89,7 +88,7 @@ streamlit run streamlit_app.py
 2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
 3. Click **"New app"**
 4. Select your GitHub repo and branch
-5. Set `streamlit_app.py` as the main file
+5. Set `app.py` as the main file
 6. Add `requirements.txt`
 7. Click **Deploy**
 
