@@ -98,7 +98,8 @@ Done! Your Resume Parser is now online.
 
 ## 📷 Screenshot
 
-![Sample UI](screenshots/sample_ui.png)
+
+![image](https://github.com/user-attachments/assets/4ec1cad2-516b-4b55-9f80-6fa620b5d546)
 
 ---
 
